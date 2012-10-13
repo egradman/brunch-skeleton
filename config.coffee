@@ -23,7 +23,7 @@ exports.config =
       joinTo:
         'stylesheets/app.css': /^(app|vendor)/
       order:
-        before: ['vendor/styles/bootstrap.scss']
+        before: ['vendor/styles/bootstrap.min.css', 'vendor/styles/bootstrap-responsive.min.css']
     templates:
       defaultExtension: 'jade'
       joinTo: 'javascripts/app.js'
